@@ -68,6 +68,7 @@ class WebView extends React.Component<WebViewSharedProps, State> {
     allowFileAccess: false,
     saveFormDataDisabled: false,
     originWhitelist: defaultOriginWhitelist,
+    enableCache: true,
   };
 
   static isFileUploadSupported = async () => {
